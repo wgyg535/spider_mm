@@ -56,7 +56,7 @@ class SpiderMmSpider(scrapy.Spider):
 
                 except:
                     pass
-                    print '创建文件错误'
+                    print '创建文件错误111'
                     #print self.base +re.compile(pattern1, item['title'])[0]
                     #os.makedirs(self.base +re.compile(pattern1, item['title'])[0])
             # 用meta传入下一层
