@@ -53,7 +53,7 @@ class SpiderMmSpider(scrapy.Spider):
             if not os.path.exists(fileName):
                 try:
                     os.makedirs(fileName)
-                    #break
+
                 except:
                     pass
                     print '创建文件错误'
